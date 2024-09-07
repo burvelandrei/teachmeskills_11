@@ -1,5 +1,7 @@
-class Soda():
-    def __init__(self, taste: str|None = None):
+class Soda:
+    """Класс для вывода вкуса газировки"""
+
+    def __init__(self, taste: str | None = None):
         self.taste = taste
 
     def __str__(self):
