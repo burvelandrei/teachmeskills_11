@@ -1,27 +1,25 @@
 class Math:
     """Класс для реализации некоторых функций калькулятора"""
 
-    def addition(self, number_1: int | float, number_2: int | float) -> int | float:
+    def addition(self, number_1: int | float, number_2: int | float):
         try:
             print(number_1 + number_2)
         except TypeError:
             print("Нужно передать числа!")
 
-    def subtraction(self, number_1: int | float, number_2: int | float) -> int | float:
+    def subtraction(self, number_1: int | float, number_2: int | float):
         try:
             print(number_1 - number_2)
         except TypeError:
             print("Нужно передать числа!")
 
-    def multiplication(
-        self, number_1: int | float, number_2: int | float
-    ) -> int | float:
+    def multiplication(self, number_1: int | float, number_2: int | float):
         try:
             print(number_1 * number_2)
         except TypeError:
             print("Нужно передать числа!")
 
-    def division(self, number_1: int | float, number_2: int | float) -> int | float:
+    def division(self, number_1: int | float, number_2: int | float):
         try:
             print(number_1 / number_2)
         except ZeroDivisionError:
